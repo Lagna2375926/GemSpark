@@ -31,22 +31,23 @@ A full-stack chatbot application built with Streamlit, MongoDB, and Google's Gem
 ## Setup Instructions
 
 1. Clone the Repository
-bash
+```bash
 git clone <repository-url>
-
+```
 2. Create Virtual Environment
-bash
+```bash
 conda create -p env python=3.10 -y
-
+```
 3. Install Dependencies
-bash
+```bash
 pip install -r requirements.txt
-
+```
 4. Environment Configuration Create a .env file in the root directory:
-bash
+```bash
 GOOGLE_API_KEY =your_api_key_here
 MONGODB_URI=your_uri_here
-
+```
 5. Run the Application
-bash
+```bash
 streamlit run app.py
+```
