@@ -1,7 +1,7 @@
 # GemSpark
 A full-stack chatbot application built with Streamlit, MongoDB, and Google's Gemini LLM. This project enables real-time conversation using generative AI while managing user authentication and persistent chat sessions.
 
-##Features
+## Features
 - **User Login & Registration** system (with `bcrypt` password hashing)
 - **Persistent Chat History** (stored and loaded from MongoDB)
 - Manage **multiple chat sessions** (create, rename, delete)
@@ -10,7 +10,7 @@ A full-stack chatbot application built with Streamlit, MongoDB, and Google's Gem
 - Built with **Streamlit** for a sleek UI experience
 - Fully modular backend using **MongoDB**, **dotenv**, and Python
 
-##Skills & Technologies Used
+## Skills & Technologies Used
 
 | Category           | Technologies / Concepts                                       |
 |--------------------|---------------------------------------------------------------|
