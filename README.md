@@ -27,3 +27,26 @@ A full-stack chatbot application built with Streamlit, MongoDB, and Google's Gem
 - Python 3.7 or higher
 - Google Generative AI API key
 - MongoDB URI (local or hosted on MongoDB Atlas)
+
+## Setup Instructions
+
+1. Clone the Repository
+bash
+git clone <repository-url>
+
+2. Create Virtual Environment
+bash
+conda create -p env python=3.10 -y
+
+3. Install Dependencies
+bash
+pip install -r requirements.txt
+
+4. Environment Configuration Create a .env file in the root directory:
+bash
+GOOGLE_API_KEY =your_api_key_here
+MONGODB_URI=your_uri_here
+
+5. Run the Application
+bash
+streamlit run app.py
