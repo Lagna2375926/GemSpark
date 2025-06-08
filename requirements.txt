@@ -87,3 +87,4 @@ urllib3==2.2.3
 watchdog==6.0.0
 yarl==1.18.3
 pymongo==4.13.0
+bcrypt
